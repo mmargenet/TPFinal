@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="wrapper">
+        <h1>Jose Perez</h1>  
+      <nav>
+        <ul>
+      <li><a href="#datosdecontacto">Datos de Contacto</a></li>     
+      <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#formacion">Formación Académica</a></li>
+          <li><a href="#logro">Logros</a></li>
+          <li><a href="#idiomas">Idiomas</a></li>
+        </ul>
+      </nav>
+      </header>
+      <body>
+        <div class="wrapper">
+          <div class="foto">
+            <img src="foto.jpg" alt="Mi foto">
+          </div>
+           <h2 id=datosdecontacto><i class="fas fa-user"></i> Datos de Contacto</h2>
+          <ul>
+            <li><strong>Fecha de nacimiento:</strong> 1 de enero de 1990</li>
+            <li><strong>Teléfono:</strong> 555-1234</li>
+            <li><strong>Email:</strong> juanperez@example.com</li>
+            <li><strong>Dirección:</strong> Calle Falsa 123, Springfield</li>
+          </ul>
+      
+          <h2 id=experiencia ><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
+          <ul>
+            <li>
+              <strong>Desarrollador web</strong><br>
+              <em>Empresa ABC</em> (junio 2018 - presente)
+              <ul>
+                <li>Desarrollo y mantenimiento de sitios web.</li>
+                <li>Trabajo en equipo con diseñadores gráficos y otros desarrolladores.</li>
+                <li>Tecnologías utilizadas: HTML, CSS, JavaScript, PHP, MySQL.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Asistente de marketing</strong><br>
+              <em>Empresa XYZ</em> (enero 2016 - mayo 2018)
+              <ul>
+                <li>Apoyo en la planificación y ejecución de campañas de marketing.</li>
+                <li>Creación de contenido para redes sociales y newsletters.</li>
+                <li>Organización de eventos y promociones.</li>
+              </ul>
+            </li>
+          </ul>
+      
+          <h2 id=formacion ><i class="fas fa-graduation-cap"></i> Formación académica</h2>
+          <ul>
+            <li>
+              <strong>FullStack Developer</strong><br>
+              <em>Argentina programa 4.0</em> (2023 - 2023)
+            </li>
+          </ul>
+      
+          <h2 id=logro><i class="fas fa-award"></i> Logros</h2>
+          <div class="logro">
+            <ul>
+              <li><i class="fas fa-trophy"></i> Primer lugar en el concurso de programación de la universidad.</li>
+              <li><i class="fas fa-trophy"></i> Mención honorífica en la Olimpiada Mexicana de Informática.</li>
+      
+      <h2 id=idiomas> <i class="fas fa-language"></i> Idiomas</h2>
+          <ul class=punteo>
+      <li><strong>Español:</strong> Nativo</li>      
+      <li><strong>Ingles:</strong> Avanzado</li>
+            <li><strong>Portugués:</strong> Básico</li>
+          </ul>
+      <h2 id=habilidades> <i class="fas fa-toolbox"></i> Habilidades</h2>
+          <ul class=punteo >
+      <li> Trabajo en equipo</li>      
+      <li> Buenas relaciones interpersonales</li>
+            <li> Autodidacta</li>
+          </ul>
+      <form id="contact-form">
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+</body>
